@@ -1,0 +1,228 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #00274d;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+header .btn {
+    background-color: #00509e;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px; /* Adds spacing between the button and other navigation items */
+    align-self: center; /* Centers the button vertically */
+}
+header .btn:hover {
+    background-color: #003f7f;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px; /* Adjusts for sticky header */
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.hero .btn {
+    background-color: #00509e;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero .btn:hover {
+    background-color: #003f7f;
+}
+
+/* About Section */
+.about {
+    background-color: #e0e0e0;
+    padding: 50px 0;
+    padding-top: 110px; /* Adjusts for sticky header */
+}
+.about h2 {
+    color: #00274d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Practice Areas Section */
+.services {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    padding-top: 110px; /* Adjusts for sticky header */
+}
+.services h2 {
+    color: #00274d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.services .service-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.services .service-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.services .service-item h3 {
+    color: #00509e;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e0e0e0;
+    padding: 50px 0;
+    padding-top: 110px; /* Adjusts for sticky header */
+}
+.testimonials h2 {
+    color: #00274d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.testimonials .testimonial-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.testimonials .testimonial-item span {
+    color: #555;
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-style: italic;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    padding-top: 110px; /* Adjusts for sticky header */
+}
+.contact h2 {
+    color: #00274d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #00509e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #003f7f;
+}
+
+/* Footer Section */
+footer {
+    background-color: #00274d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    margin: 0;
+}
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer .social-links a:hover {
+    text-decoration: underline;
+}
